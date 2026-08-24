@@ -4,6 +4,10 @@ Barða is a compact wireless keyboard design project by [hringdrifi](https://git
 
 The design uses 42 Kailh Choc hot-swap switch positions and an FDK HY0020 Bluetooth Low Energy module based on the Nordic nRF52832.
 
+## Connectivity and firmware
+
+Barða has no USB connection and supports Bluetooth Low Energy (BLE) only. A USB-to-serial adapter is required to flash firmware to the keyboard.
+
 ## Project status
 
 The PCB design files are published in this repository. Validate the design for your intended switches, battery, firmware, manufacturing process, and assembly before building hardware.
