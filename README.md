@@ -10,7 +10,7 @@ Barða has no USB connection and supports Bluetooth Low Energy (BLE) only. It is
 
 ## Project status
 
-The PCB design files are published in this repository. Validate the design for your intended switches, battery, firmware, manufacturing process, and assembly before building hardware.
+The PCB and case design files are published in this repository. Validate the design for your intended switches, battery, firmware, manufacturing process, and assembly before building hardware.
 
 ## Available files
 
@@ -21,11 +21,16 @@ The PCB design files are published in this repository. Validate the design for y
   - [`barda_bottom_plate.kicad_pcb`](pcb/barda_bottom_plate.kicad_pcb) — bottom plate PCB
   - [`smidr.pretty/`](pcb/smidr.pretty/) — custom footprints referenced by the design
   - [`3dmodels/`](pcb/3dmodels/) — STEP models for selected components
+- [`case/`](case/) — STEP models for the case assembly
+  - [`barda_switch_plate.step`](case/barda_switch_plate.step) — case switch plate
+  - [`barda_bumper.step`](case/barda_bumper.step) — bumper layer
+  - [`barda_bottom_plate.step`](case/barda_bottom_plate.step) — case bottom plate
 - [`pcb/README.md`](pcb/README.md) — Smiðr KiCad-export details
+- [`case/README.md`](case/README.md) — case-model notes and file roles
 
 ## License
 
-The design data in `pcb/` is licensed under the [CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0)](LICENSE).
+The design data in `pcb/` and `case/` is licensed under the [CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0)](LICENSE).
 
 This license permits use, modification, manufacture, and sale of the design data and products made from it. Modified design data does not need to be published, but applicable notices must be retained and modifications must be documented. The design data and any resulting products are provided without warranty.
 
