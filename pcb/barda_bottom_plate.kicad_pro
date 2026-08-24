@@ -302,7 +302,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "barda_bottom_plate.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -311,7 +311,13 @@
     "bus_aliases": {},
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
-    "top_level_sheets": []
+    "top_level_sheets": [
+      {
+        "filename": "barda_bottom_plate.kicad_sch",
+        "name": "barda_bottom_plate",
+        "uuid": "00000000-0000-0000-0000-000000000000"
+      }
+    ]
   },
   "sheets": [],
   "text_variables": {},

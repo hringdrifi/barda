@@ -78,10 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|201925446|150292977|1273db0f-9883-41fe-8a16-9e8a9b9c3631|813e3de5-d72c-41d4-86c8-f0a6d2b961c3",
-          ""
-        ],
-        [
           "copper_edge_clearance|173732500|180962500|b3ca5627-46e6-450c-9195-b81276befa78|539b4d75-75db-419c-a209-9be7cd3f7003",
           ""
         ],
@@ -684,7 +680,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "barda.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
