@@ -6,7 +6,7 @@ The design uses 42 Kailh Choc hot-swap switch positions and an FDK HY0020 Blueto
 
 ## Connectivity and firmware
 
-Barða has no USB connection and supports Bluetooth Low Energy (BLE) only. A USB-to-serial adapter is required to flash firmware to the keyboard.
+Barða has no USB connection and supports Bluetooth Low Energy (BLE) only. It is powered by a CR1632 lithium coin cell. A USB-to-serial adapter is required to flash firmware to the keyboard.
 
 ## Project status
 
