@@ -14,7 +14,7 @@ The design supports the following keyboard components:
 
 - Kailh Choc V2 switches
 - Kailh low-profile sockets
-- Chosfox plate-mount stabilizers
+- [Chosfox Cross-Core Low-Profile Stabilizers](https://chosfox.com/products/chosfox-cross-core-satellite-switch-for-low-profile-keyboards)
 
 Confirm the exact part variants and mechanical fit before ordering or manufacturing.
 
