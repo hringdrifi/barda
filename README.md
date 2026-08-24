@@ -1,6 +1,6 @@
-# Barda
+# Barða
 
-Barda is a compact wireless keyboard design project by [hringdrifi](https://github.com/hringdrifi).
+Barða is a compact wireless keyboard design project by [hringdrifi](https://github.com/hringdrifi).
 
 The design uses 42 Kailh Choc hot-swap switch positions and an FDK HY0020 Bluetooth Low Energy module based on the Nordic nRF52832.
 
