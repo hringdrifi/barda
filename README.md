@@ -2,7 +2,21 @@
 
 Barða is a compact wireless keyboard design project by [hringdrifi](https://github.com/hringdrifi).
 
+![Barða, top view](assets/barda-top-view.png)
+
+![Barða, side view](assets/barda-side-view.png)
+
 The design uses 42 Kailh Choc hot-swap switch positions and an FDK HY0020 Bluetooth Low Energy module based on the Nordic nRF52832.
+
+## Supported components
+
+The design supports the following keyboard components:
+
+- Kailh Choc V2 switches
+- Kailh low-profile sockets
+- Chosfox plate-mount stabilizers
+
+Confirm the exact part variants and mechanical fit before ordering or manufacturing.
 
 ## Connectivity and firmware
 
