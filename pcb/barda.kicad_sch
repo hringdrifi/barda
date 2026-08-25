@@ -2590,7 +2590,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3V0"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2615,7 +2615,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3V0"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2647,7 +2647,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3V0\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2669,7 +2669,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3V0_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2707,7 +2707,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3V0_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2973,12 +2973,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44610557-643d-4a8d-a760-e738c0fe99e1")
-	)
-	(junction
-		(at 185.42 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45336811-4ce7-48be-9396-3492fbd0544c")
 	)
 	(junction
 		(at 218.44 50.8)
@@ -3291,6 +3285,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdeeb073-4a4d-44c1-a9f0-a2afebb406b8")
+	)
+	(junction
+		(at 185.42 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe075790-568a-4587-a5fe-37bd7e6ec27a")
 	)
 	(no_connect
 		(at 102.87 149.86)
@@ -7570,7 +7570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power:+3V0")
 		(at 185.42 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -7580,8 +7580,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1284be05-880a-4afa-b85e-1c2f4ba7e979")
-		(property "Reference" "#PWR09"
+		(uuid "0d0cc762-f172-4297-bcc4-2524b3a6c513")
+		(property "Reference" "#PWR013"
 			(at 185.42 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7592,7 +7592,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V0"
 			(at 185.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7624,7 +7624,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
 			(at 185.42 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7636,12 +7636,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e10fe3ba-69de-43ca-acf1-f4de7417e9e2")
+			(uuid "7e71048d-f2a2-41d7-98ce-70ae3abb4f95")
 		)
 		(instances
 			(project "barda"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8014,8 +8014,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 120.65 142.24 0)
+		(lib_id "power:+3V0")
+		(at 96.52 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8024,9 +8024,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28af89a5-458a-403c-a7cc-6fd1bbc346ff")
-		(property "Reference" "#PWR03"
-			(at 120.65 146.05 0)
+		(uuid "22440fa8-6c64-479e-ad4f-374b3683dee7")
+		(property "Reference" "#PWR010"
+			(at 96.52 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8036,8 +8036,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 120.65 137.16 0)
+		(property "Value" "+3V0"
+			(at 96.52 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8047,7 +8047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 142.24 0)
+			(at 96.52 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8058,7 +8058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 142.24 0)
+			(at 96.52 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8068,8 +8068,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 142.24 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(at 96.52 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8080,12 +8080,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "27cd8031-d79b-4b71-8af9-9a1bf8116ecc")
+			(uuid "17e5cd86-0db5-4158-8606-1646dc1180ce")
 		)
 		(instances
 			(project "barda"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8171,7 +8171,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power:+3V0")
 		(at 107.95 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -8181,8 +8181,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "570783cf-7aa0-4050-928b-0610891cf9cb")
-		(property "Reference" "#PWR05"
+		(uuid "50f6f395-fa0c-47a1-a602-6e8e93895467")
+		(property "Reference" "#PWR011"
 			(at 107.95 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8193,7 +8193,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V0"
 			(at 107.95 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8225,7 +8225,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
 			(at 107.95 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8237,12 +8237,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6d77625-0033-490d-b6e2-4087df734d1a")
+			(uuid "196c5956-2341-49de-be65-37da243787fc")
 		)
 		(instances
 			(project "barda"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
-					(reference "#PWR05")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9435,6 +9435,84 @@
 			(project "barda"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V0")
+		(at 120.65 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bbaf779-0382-4ae9-8a5e-5457f96c4108")
+		(property "Reference" "#PWR012"
+			(at 120.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V0"
+			(at 120.65 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(at 120.65 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "570cf5fe-9de8-450d-8a0e-bce1c54d0dbd")
+		)
+		(instances
+			(project "barda"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12835,84 +12913,6 @@
 			(project "barda"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 96.52 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d19e4bdc-bd52-4b32-bdeb-1fa8afde9370")
-		(property "Reference" "#PWR07"
-			(at 96.52 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 96.52 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98f23ea1-e845-4dbc-bec3-6732180c567c")
-		)
-		(instances
-			(project "barda"
-				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
