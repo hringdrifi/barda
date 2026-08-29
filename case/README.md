@@ -8,6 +8,11 @@ This directory contains the STEP models for the Barða case. The models are supp
 | [`barda_bumper.step`](barda_bumper.step) | Bumper layer between the plate and bottom plate. |
 | [`barda_bottom_plate.step`](barda_bottom_plate.step) | Bottom plate for the case assembly. |
 
+## Assembly hardware
+
+- M2 standoffs, 4.5 mm long
+- M2 screws, 3 mm long
+
 ## Use
 
 Import all three STEP files into the same CAD assembly and align them by their native coordinates. The models are design data rather than a production-ready manufacturing package: confirm dimensions, fit with the PCB and components, material selection, tolerances, and manufacturing constraints before fabrication.
