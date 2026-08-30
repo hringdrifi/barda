@@ -9,7 +9,7 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'barda_switch_plate.step',
+/* name */ 'blad_switch_plate.step',
 /* time_stamp */ '2026-08-30T05:59:33+09:00',
 /* author */ (''),
 /* organization */ (''),
@@ -29,9 +29,9 @@ REPRESENTATION_RELATIONSHIP_WITH_TRANSFORMATION(#11)
 SHAPE_REPRESENTATION_RELATIONSHIP()
 );
 #13=CONTEXT_DEPENDENT_SHAPE_REPRESENTATION(#12,#13594);
-#14=NEXT_ASSEMBLY_USAGE_OCCURRENCE('barda_switch_plate_PCB:1',
-'barda_switch_plate_PCB:1','barda_switch_plate_PCB:1',#13598,#13599,
-'barda_switch_plate_PCB:1');
+#14=NEXT_ASSEMBLY_USAGE_OCCURRENCE('blad_switch_plate_PCB:1',
+'blad_switch_plate_PCB:1','blad_switch_plate_PCB:1',#13598,#13599,
+'blad_switch_plate_PCB:1');
 #15=SHAPE_REPRESENTATION_RELATIONSHIP('SRR','None',#13596,#16);
 #16=ADVANCED_BREP_SHAPE_REPRESENTATION('',(#18),#13584);
 #17=STYLED_ITEM('',(#13610),#18);
@@ -13707,24 +13707,24 @@ SOLID_ANGLE_UNIT()
 #13595=SHAPE_REPRESENTATION('',(#8056,#8852),#13583);
 #13596=SHAPE_REPRESENTATION('',(#8057),#13584);
 #13597=PRODUCT_DEFINITION_CONTEXT('part definition',#13605,'design');
-#13598=PRODUCT_DEFINITION('barda_switch_plate 1',
-'barda_switch_plate v16',#13600,#13597);
-#13599=PRODUCT_DEFINITION('barda_switch_plate_PCB',
-'barda_switch_plate_PCB',#13601,#13597);
+#13598=PRODUCT_DEFINITION('blad_switch_plate 1',
+'blad_switch_plate v16',#13600,#13597);
+#13599=PRODUCT_DEFINITION('blad_switch_plate_PCB',
+'blad_switch_plate_PCB',#13601,#13597);
 #13600=PRODUCT_DEFINITION_FORMATION('',$,#13607);
 #13601=PRODUCT_DEFINITION_FORMATION('',$,#13608);
-#13602=PRODUCT_RELATED_PRODUCT_CATEGORY('barda_switch_plate v16',
-'barda_switch_plate v16',(#13607));
-#13603=PRODUCT_RELATED_PRODUCT_CATEGORY('barda_switch_plate_PCB',
-'barda_switch_plate_PCB',(#13608));
+#13602=PRODUCT_RELATED_PRODUCT_CATEGORY('blad_switch_plate v16',
+'blad_switch_plate v16',(#13607));
+#13603=PRODUCT_RELATED_PRODUCT_CATEGORY('blad_switch_plate_PCB',
+'blad_switch_plate_PCB',(#13608));
 #13604=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#13605);
 #13605=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #13606=PRODUCT_CONTEXT('part definition',#13605,'mechanical');
-#13607=PRODUCT('barda_switch_plate 1','barda_switch_plate v16',
+#13607=PRODUCT('blad_switch_plate 1','blad_switch_plate v16',
 'KiCad electronic assembly',(#13606));
-#13608=PRODUCT('barda_switch_plate_PCB','barda_switch_plate_PCB',$,(#13606));
+#13608=PRODUCT('blad_switch_plate_PCB','blad_switch_plate_PCB',$,(#13606));
 #13609=PRESENTATION_STYLE_ASSIGNMENT((#13611));
 #13610=PRESENTATION_STYLE_ASSIGNMENT((#13612));
 #13611=SURFACE_STYLE_USAGE(.BOTH.,#13613);

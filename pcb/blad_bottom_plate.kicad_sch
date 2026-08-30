@@ -677,7 +677,7 @@
 			(uuid "d98bbbf7-d609-430d-b386-bb653429f9cc")
 		)
 		(instances
-			(project "barda_bottom_plate"
+			(project "blad_bottom_plate"
 				(path "/7ca730a4-8aea-420e-83e2-ccbe2b206618"
 					(reference "#PWR02")
 					(unit 1)
@@ -756,7 +756,7 @@
 			(uuid "21eb9d83-4add-4102-bd0c-a7b759ec02e5")
 		)
 		(instances
-			(project "barda_bottom_plate"
+			(project "blad_bottom_plate"
 				(path "/7ca730a4-8aea-420e-83e2-ccbe2b206618"
 					(reference "TP1")
 					(unit 1)
@@ -834,7 +834,7 @@
 			(uuid "7e2c132a-e91c-4f6a-af6e-5e85af62858e")
 		)
 		(instances
-			(project "barda_bottom_plate"
+			(project "blad_bottom_plate"
 				(path "/7ca730a4-8aea-420e-83e2-ccbe2b206618"
 					(reference "#PWR03")
 					(unit 1)
@@ -912,7 +912,7 @@
 			(uuid "b9e72775-b830-4f8f-8750-a842970a46fa")
 		)
 		(instances
-			(project "barda_bottom_plate"
+			(project "blad_bottom_plate"
 				(path "/7ca730a4-8aea-420e-83e2-ccbe2b206618"
 					(reference "#PWR01")
 					(unit 1)
@@ -991,7 +991,7 @@
 			(uuid "ef824318-55b2-4780-8fe2-69503bab42b2")
 		)
 		(instances
-			(project "barda_bottom_plate"
+			(project "blad_bottom_plate"
 				(path "/7ca730a4-8aea-420e-83e2-ccbe2b206618"
 					(reference "TP2")
 					(unit 1)
@@ -1106,7 +1106,7 @@
 			(uuid "5dafddc9-fb1f-468c-a1af-9b6cf4fcc004")
 		)
 		(instances
-			(project "barda_bottom_plate"
+			(project "blad_bottom_plate"
 				(path "/7ca730a4-8aea-420e-83e2-ccbe2b206618"
 					(reference "BT1")
 					(unit 1)
@@ -1184,7 +1184,7 @@
 			(uuid "7367c3f1-adcb-4476-a012-237da49a8725")
 		)
 		(instances
-			(project "barda_bottom_plate"
+			(project "blad_bottom_plate"
 				(path "/7ca730a4-8aea-420e-83e2-ccbe2b206618"
 					(reference "#PWR04")
 					(unit 1)

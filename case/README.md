@@ -1,12 +1,12 @@
-# Barða case models
+# Blað case models
 
-This directory contains the STEP models for the Barða case. The models are supplied as separate parts so they can be inspected, modified, or incorporated into a manufacturing workflow.
+This directory contains the STEP models for the Blað case. The models are supplied as separate parts so they can be inspected, modified, or incorporated into a manufacturing workflow.
 
 | File | Role |
 | --- | --- |
-| [`barda_switch_plate.step`](barda_switch_plate.step) | Switch plate for the case assembly. |
-| [`barda_bumper.step`](barda_bumper.step) | Bumper layer between the plate and bottom plate. |
-| [`barda_bottom_plate.step`](barda_bottom_plate.step) | Bottom plate for the case assembly. |
+| [`blad_switch_plate.step`](blad_switch_plate.step) | Switch plate for the case assembly. |
+| [`blad_bumper.step`](blad_bumper.step) | Bumper layer between the plate and bottom plate. |
+| [`blad_battery_cap.step`](blad_battery_cap.step) | Battery cap for the case assembly. |
 
 ## Assembly hardware
 

@@ -224,7 +224,7 @@
 		)
 		(path "/f530cf54-1dea-44fd-8d07-e79d3d7359df")
 		(sheetname "/")
-		(sheetfile "barda_bottom_plate.kicad_sch")
+		(sheetfile "blad_bottom_plate.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -601,7 +601,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/52f2881e-48b0-4af2-b355-578b3e32879d")
 		(sheetname "/")
-		(sheetfile "barda_bottom_plate.kicad_sch")
+		(sheetfile "blad_bottom_plate.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1138,7 +1138,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b68bdc5f-cf55-406f-b53d-74adc720eb05")
 		(sheetname "/")
-		(sheetfile "barda_bottom_plate.kicad_sch")
+		(sheetfile "blad_bottom_plate.kicad_sch")
 		(units
 			(unit
 				(name "A")

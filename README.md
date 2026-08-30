@@ -1,10 +1,10 @@
-# Barða
+# Blað
 
-Barða is a compact wireless keyboard design project by [hringdrifi](https://github.com/hringdrifi).
+Blað is a compact wireless keyboard design project by [hringdrifi](https://github.com/hringdrifi).
 
-![Barða, top view](assets/barda-top-view.png)
+![Blað, top view](assets/blad-top-view.png)
 
-![Barða, side view](assets/barda-side-view.png)
+![Blað, side view](assets/blad-side-view.png)
 
 The design uses 42 Kailh Choc hot-swap switch positions and an FDK HY0020 Bluetooth Low Energy module based on the Nordic nRF52832.
 
@@ -20,7 +20,7 @@ Confirm the exact part variants and mechanical fit before ordering or manufactur
 
 ## Connectivity and firmware
 
-Barða has no USB connection and supports Bluetooth Low Energy (BLE) only. It is powered by a CR1632 lithium coin cell. A USB-to-serial adapter is required to flash firmware to the keyboard.
+Blað has no USB connection and supports Bluetooth Low Energy (BLE) only. It is powered by a CR1632 lithium coin cell. A USB-to-serial adapter is required to flash firmware to the keyboard.
 
 ## Project status
 
@@ -29,16 +29,16 @@ The PCB and case design files are published in this repository. Validate the des
 ## Available files
 
 - [`pcb/`](pcb/) — KiCad source files for the keyboard PCB and plates
-  - [`barda.kicad_pcb`](pcb/barda.kicad_pcb) — main keyboard PCB
-  - [`barda.kicad_sch`](pcb/barda.kicad_sch) — schematic
-  - [`barda_plate.kicad_pcb`](pcb/barda_plate.kicad_pcb) — switch plate PCB
-  - [`barda_bottom_plate.kicad_pcb`](pcb/barda_bottom_plate.kicad_pcb) — bottom plate PCB
+  - [`blad.kicad_pcb`](pcb/blad.kicad_pcb) — main keyboard PCB
+  - [`blad.kicad_sch`](pcb/blad.kicad_sch) — schematic
+  - [`blad_switch_plate.kicad_pcb`](pcb/blad_switch_plate.kicad_pcb) — switch plate PCB
+  - [`blad_bottom_plate.kicad_pcb`](pcb/blad_bottom_plate.kicad_pcb) — bottom plate PCB
   - [`smidr.pretty/`](pcb/smidr.pretty/) — custom footprints referenced by the design
   - [`3dmodels/`](pcb/3dmodels/) — STEP models for selected components
 - [`case/`](case/) — STEP models for the case assembly
-  - [`barda_switch_plate.step`](case/barda_switch_plate.step) — case switch plate
-  - [`barda_bumper.step`](case/barda_bumper.step) — bumper layer
-  - [`barda_bottom_plate.step`](case/barda_bottom_plate.step) — case bottom plate
+  - [`blad_switch_plate.step`](case/blad_switch_plate.step) — case switch plate
+  - [`blad_bumper.step`](case/blad_bumper.step) — bumper layer
+  - [`blad_battery_cap.step`](case/blad_battery_cap.step) — battery cap
 - [`pcb/README.md`](pcb/README.md) — Smiðr KiCad-export details
 - [`case/README.md`](case/README.md) — case-model notes and file roles
 
